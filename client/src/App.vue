@@ -33,7 +33,7 @@ export default {
     async sendRequest() {
       try {
         const response = await axios.post(
-          "http://192.168.0.157:3333/findDecimalNumbers",
+          "http://192.168.56.101:3333/findDecimalNumbers",
           { data: this.inputData },
           {
             headers: { "Content-Type": "application/json" },
