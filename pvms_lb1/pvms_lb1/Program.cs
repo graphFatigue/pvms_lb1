@@ -40,7 +40,7 @@ app.MapPost("/findDecimalNumbers", async (HttpContext context) =>
 
 Console.WriteLine("Server is running on port 3333");
 
-app.Run("http://192.168.56.101:3333");
+app.Run("http://0.0.0.0:3333");
 
 public class RequestData
 {
